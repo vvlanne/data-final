@@ -1,0 +1,4 @@
+requests
+pandas
+kafka-python
+python-dotenv
