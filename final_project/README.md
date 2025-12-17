@@ -11,18 +11,11 @@ This project fetches news data via GNews API, sends it to Kafka, processes it wi
 
 ## **How to Run**
 
-### **0) Open VS Code Terminal**
+### **Part A – Kafka**
+1) Start Docker Desktop and wait until it runs.
+
+   Check Docker daemon:
 ```bash
-cd ~/final_project
-pwd
-# Expected: path ends with final_project
-Part A – Kafka
-Start Docker Desktop and wait until it runs.
-
-Check Docker daemon:
-
-bash
-Копировать код
 docker info
 Start Kafka containers:
 
@@ -136,4 +129,5 @@ job2_kafka_to_sqlite → wait SUCCESS
 job3_daily_analytics → wait SUCCESS
 
 Job 1 DAG can run, but may be terminated if too long.
+
 
