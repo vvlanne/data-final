@@ -13,5 +13,5 @@ with DAG(
 
     run_job1 = BashOperator(
         task_id="run_gnews_ingestion",
-        bash_command="python src/job1_producer.py || true",
+        bash_command="/Users/hwanganna/final_project/.venv/bin/python /Users/hwanganna/final_project/src/job1_producer.py"
     )
