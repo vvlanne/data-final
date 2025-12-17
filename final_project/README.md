@@ -17,7 +17,8 @@ This project fetches news data via GNews API, sends it to Kafka, processes it wi
    Check Docker daemon:
 ```bash
 docker info
-Start Kafka containers:
+```
+2) Start Kafka containers:
 
 bash
 Копировать код
@@ -129,5 +130,6 @@ job2_kafka_to_sqlite → wait SUCCESS
 job3_daily_analytics → wait SUCCESS
 
 Job 1 DAG can run, but may be terminated if too long.
+
 
 
