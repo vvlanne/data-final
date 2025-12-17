@@ -107,7 +107,8 @@ airflow scheduler
 Open UI: http://localhost:8080 
 
 ### **Part E – Run DAGs**
-Trigger DAGs in order(Job 1 → Job 2 → Job 3)
+Trigger DAGs in order  (Job 1 → Job 2 → Job 3)
+
 
 
 
