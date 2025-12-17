@@ -13,7 +13,7 @@ with DAG(
 
     run_cleaner = BashOperator(
         task_id="run_cleaner_job",
-        bash_command="python src/job2_cleaner.py || true"
+        bash_command="/Users/hwanganna/final_project/.venv_airflow/bin/python /Users/hwanganna/final_project/src/job2_cleaner.py"
     )
 
     run_cleaner
