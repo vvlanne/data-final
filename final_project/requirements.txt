@@ -2,3 +2,4 @@ requests
 pandas
 kafka-python
 python-dotenv
+apache-airflow
