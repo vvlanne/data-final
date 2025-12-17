@@ -13,7 +13,7 @@ with DAG(
 
     run_analytics = BashOperator(
         task_id="run_daily_analytics",
-        bash_command="python src/job3_analytics.py || true"
+        bash_command="/Users/hwanganna/final_project/.venv_airflow/bin/python /Users/hwanganna/final_project/src/job3_analytics.py"
     )
 
     run_analytics
