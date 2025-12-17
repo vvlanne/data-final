@@ -1,7 +1,7 @@
 # Final Project – Kafka + Python Scripts + Airflow
 
 **GNews API:** [https://gnews.io](https://gnews.io)  
-**Students:** Ilyassova, [Other Students' Names Here]
+**Students:** Ilyassova Kamilla, Khvan Anna, Kelis Karina
 
 ---
 
@@ -9,23 +9,7 @@ This project fetches news data via GNews API, sends it to Kafka, processes it wi
 
 ---
 
-## **Requirements**
-- Python 3.10+  
-- Docker Desktop (Kafka + Zookeeper)  
-- VS Code terminal (macOS instructions below)  
-- Python packages (install via `requirements.txt`):  
-pandas
-requests
-kafka-python
-python-dotenv
-apache-airflow
-
-yaml
-Копировать код
-
----
-
-## **How to Run (Detailed)**
+## **How to Run**
 
 ### **0) Open VS Code Terminal**
 ```bash
@@ -152,3 +136,4 @@ job2_kafka_to_sqlite → wait SUCCESS
 job3_daily_analytics → wait SUCCESS
 
 Job 1 DAG can run, but may be terminated if too long.
+
