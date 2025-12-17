@@ -85,6 +85,7 @@ airflow users create \
 ```
 
 Start Airflow webserver + scheduler:
+
 Terminal 1
 ```bash
 source .venv_airflow/bin/activate
@@ -106,13 +107,7 @@ airflow scheduler
 Open UI: http://localhost:8080 
 
 ### **Part E – Run DAGs**
-Run Job 1 manually.
-
-Trigger DAGs in order:
-
-job2_kafka_to_sqlite → wait SUCCESS
-
-job3_daily_analytics → wait SUCCESS
+Trigger DAGs in order(Job 1 → Job 2 → Job 3)
 
 
 
