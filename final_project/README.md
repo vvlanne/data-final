@@ -107,11 +107,17 @@ airflow scheduler
 Open UI: http://localhost:8080 
 
 ### **Part E – Run DAGs**
-Trigger DAGs in order:
+Trigger the DAGs in the following order:
 
-1. Job 1
 
-2. Stop job 1 and only then trigger (Job 2 → Job 3)
+Start Job 1 and allow it to complete successfully.
+
+After Job 1 has finished, stop it.
+
+Then trigger Job 2, followed by Job 3, ensuring they run sequentially.
+
+
+
 
 
 
