@@ -109,12 +109,12 @@ Open UI: http://localhost:8080
 ### **Part E – Run DAGs**
 Trigger the DAGs in the following order:
 
+1. Start Job 1 and allow it to complete successfully.
 
-Start Job 1 and allow it to complete successfully.
+2. After Job 1 has finished, stop it.
 
-After Job 1 has finished, stop it.
+3. Then trigger Job 2, followed by Job 3, ensuring they run sequentially.
 
-Then trigger Job 2, followed by Job 3, ensuring they run sequentially.
 
 
 
